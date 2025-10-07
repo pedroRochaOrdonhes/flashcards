@@ -3,13 +3,14 @@
   font-style: normal;
 }
 body{
-    width: 100%;
-    min-height: 100vh;
+    width: 99vw;
+    min-height: 99vh;
     display: flex;
     flex-direction: column;
-}
+    align-items: center;
+    justify-content: space-between;
+  }
 footer{
-    justify-self: end;
     background-color: #000;
     height: 20px;
     width: 100%;
