@@ -47,7 +47,13 @@ header{
   font-weight: bold;
 }
 main{
+  flex-direction: row;
   background-color: #000f2e;
   width: 100%;
   min-height: 100vh;
+}
+.card{
+  width: 30%;
+  height: 150px;
+  background-color: brown;
 }
