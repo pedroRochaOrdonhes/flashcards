@@ -5,8 +5,11 @@
 body{
     width: 100%;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 footer{
+    justify-self: end;
     background-color: #000;
     height: 20px;
     width: 100%;
