@@ -21,10 +21,16 @@ footer{
     color: #fff;
 }
 header{
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: #000;
+  height: 22px;
+}
+title{
+  font-size: 18px;
 }
 .credits{
   font-size: 8px;
