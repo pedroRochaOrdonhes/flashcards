@@ -5,6 +5,9 @@
     justify-content: center;
     align-items: center;
 }
+title{
+  display: none;
+}
 body{
     width: 99vw;
     min-height: 99vh;
@@ -33,7 +36,7 @@ header{
   height: 22px;
   color: #fff;
 }
-title{
+.title{
   font-size: 18px;
 }
 .credits{
