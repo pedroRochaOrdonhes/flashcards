@@ -1,6 +1,9 @@
 *{
   font-family: "Oswald", sans-serif;
   font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 body{
     width: 99vw;
@@ -28,6 +31,7 @@ header{
   align-items: center;
   background-color: #000;
   height: 22px;
+  color: #fff;
 }
 title{
   font-size: 18px;
