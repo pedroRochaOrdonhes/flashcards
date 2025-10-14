@@ -57,10 +57,17 @@ main{
   min-height: 100vh;
 }
 .card{
+  border: 2px solid #fff;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   width: 300px;
   height: 150px;
   background-color: #008060;
+}
+.card:hover{
+  box-shadow: 0  0 5px #888;
 }
 .back{
   display: none;
