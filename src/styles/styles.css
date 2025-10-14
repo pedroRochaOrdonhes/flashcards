@@ -75,6 +75,9 @@ main{
 .back{
   display: none;
 }
+.front{
+  display: block;
+}
 .cgg{
   gap: 10px;
   display: flex;
