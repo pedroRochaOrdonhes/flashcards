@@ -6,6 +6,7 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
+    transition: all 1s;
 }
 title{
   display: none;
@@ -67,7 +68,7 @@ main{
   background-color: #008060;
 }
 .card:hover{
-  box-shadow: 0  0 5px #888;
+  box-shadow: 0  0 20px #888;
 }
 .back{
   display: none;
