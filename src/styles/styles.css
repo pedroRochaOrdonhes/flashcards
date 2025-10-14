@@ -51,14 +51,14 @@ header{
 main{
     display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 5px;
   background-color: #000f2e;
   width: 100%;
   min-height: 100vh;
 }
 .card{
   display: flex;
-  width: 75%;
+  width: 300px;
   height: 150px;
   background-color: #008060;
 }
@@ -66,6 +66,8 @@ main{
   display: none;
 }
 .cgg{
+  gap: 10px;
   display: flex;
   flex-direction: row;
+
 }
