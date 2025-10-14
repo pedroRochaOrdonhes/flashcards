@@ -1,7 +1,6 @@
 *{
   font-family: "Oswald", sans-serif;
   font-style: normal;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -41,18 +40,23 @@ header{
 }
 .title{
   font-size: 24px;
+
+    display: flex;
 }
 .credits{
   font-size: 9px;
+    display: flex;
   font-weight: bold;
 }
 main{
+    display: flex;
   flex-direction: row;
   background-color: #000f2e;
   width: 100%;
   min-height: 100vh;
 }
 .card{
+    display: flex;
   width: 30%;
   height: 150px;
   background-color: #008060;
