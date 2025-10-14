@@ -50,14 +50,15 @@ header{
 }
 main{
     display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  gap: 20px;
   background-color: #000f2e;
   width: 100%;
   min-height: 100vh;
 }
 .card{
-    display: flex;
-  width: 30%;
+  display: flex;
+  width: 75%;
   height: 150px;
   background-color: #008060;
 }
