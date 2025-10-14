@@ -61,3 +61,6 @@ main{
   height: 150px;
   background-color: #008060;
 }
+.back{
+  display: none;
+}
